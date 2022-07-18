@@ -1,0 +1,4 @@
+2022-06-30 10:22:40.953 [http-nio-8001-exec-9] ERROR c.l.demo.edu.service.impl.EduSubjectServiceImpl - 找到的二级分类是： [TwoSubject(id=1537714206202191873, title=vue), TwoSubject(id=1537714206466433025, title=html), TwoSubject(id=1537714206801977346, title=javascript)]
+2022-06-30 10:22:40.959 [http-nio-8001-exec-9] ERROR c.l.demo.edu.service.impl.EduSubjectServiceImpl - 找到的二级分类是： [TwoSubject(id=1537714207322071042, title=java), TwoSubject(id=1537714207590506497, title=python)]
+2022-06-30 10:22:40.966 [http-nio-8001-exec-9] ERROR c.l.demo.edu.service.impl.EduSubjectServiceImpl - 找到的二级分类是： [TwoSubject(id=1537714208236429313, title=1.0)]
+2022-06-30 10:22:40.966 [http-nio-8001-exec-9] ERROR c.l.demo.edu.service.impl.EduSubjectServiceImpl - 找到的二级分类是： [TwoSubject(id=1537714208823631873, title=2.0)]

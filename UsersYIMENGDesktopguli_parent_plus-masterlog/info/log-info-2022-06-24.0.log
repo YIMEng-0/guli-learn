@@ -1,0 +1,154 @@
+2022-06-24 15:26:59.467 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-24 15:26:59.478 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-24 15:26:59.493 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-24 15:47:43.265 [main] INFO  com.luobin.demo.edu.EduApplication - Starting EduApplication on LAPTOP-EMPL0VD0 with PID 29592 (C:\Users\YIMENG\Desktop\guli_parent_plus-master\service\service-edu\target\classes started by YIMENG in C:\Users\YIMENG\Desktop\guli_parent_plus-master)
+2022-06-24 15:47:43.268 [main] INFO  com.luobin.demo.edu.EduApplication - The following profiles are active: dev
+2022-06-24 15:47:44.729 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-24 15:47:44.734 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-06-24 15:47:44.781 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2022-06-24 15:47:45.173 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-24 15:47:45.512 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-06-24 15:47:45.523 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-06-24 15:47:45.523 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-24 15:47:45.523 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-06-24 15:47:45.648 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-24 15:47:45.649 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2276 ms
+2022-06-24 15:47:45.914 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-24 15:47:46.505 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-24 15:47:47.451 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-24 15:47:47.600 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-24 15:47:48.207 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-24 15:47:48.228 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-24 15:47:48.278 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-24 15:47:48.849 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-06-24 15:47:48.909 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-06-24 15:47:48.913 [main] INFO  com.luobin.demo.edu.EduApplication - Started EduApplication in 6.337 seconds (JVM running for 7.635)
+2022-06-24 15:47:55.475 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 15:47:55.476 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-24 15:47:55.498 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2022-06-24 16:10:52.328 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-24 16:10:52.330 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-24 16:10:52.344 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-24 16:10:59.949 [main] INFO  com.luobin.demo.edu.EduApplication - Starting EduApplication on LAPTOP-EMPL0VD0 with PID 11996 (C:\Users\YIMENG\Desktop\guli_parent_plus-master\service\service-edu\target\classes started by YIMENG in C:\Users\YIMENG\Desktop\guli_parent_plus-master)
+2022-06-24 16:10:59.953 [main] INFO  com.luobin.demo.edu.EduApplication - The following profiles are active: dev
+2022-06-24 16:11:01.076 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-24 16:11:01.079 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-06-24 16:11:01.123 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2022-06-24 16:11:01.482 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-24 16:11:01.765 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-06-24 16:11:01.775 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-06-24 16:11:01.776 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-24 16:11:01.776 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-06-24 16:11:01.895 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-24 16:11:01.895 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1860 ms
+2022-06-24 16:11:02.127 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-24 16:11:02.524 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-24 16:11:03.274 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-24 16:11:03.393 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-24 16:11:03.901 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-24 16:11:03.917 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-24 16:11:03.956 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-24 16:11:04.171 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-06-24 16:11:04.197 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-06-24 16:11:04.200 [main] INFO  com.luobin.demo.edu.EduApplication - Started EduApplication in 4.816 seconds (JVM running for 5.961)
+2022-06-24 16:11:12.487 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 16:11:12.488 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-24 16:11:12.497 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2022-06-24 16:19:35.619 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-24 16:19:35.620 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-24 16:19:35.627 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-24 16:19:43.170 [main] INFO  com.luobin.demo.edu.EduApplication - Starting EduApplication on LAPTOP-EMPL0VD0 with PID 17924 (C:\Users\YIMENG\Desktop\guli_parent_plus-master\service\service-edu\target\classes started by YIMENG in C:\Users\YIMENG\Desktop\guli_parent_plus-master)
+2022-06-24 16:19:43.173 [main] INFO  com.luobin.demo.edu.EduApplication - The following profiles are active: dev
+2022-06-24 16:19:44.377 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-24 16:19:44.381 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-06-24 16:19:44.422 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2022-06-24 16:19:44.760 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-24 16:19:45.045 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-06-24 16:19:45.057 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-06-24 16:19:45.058 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-24 16:19:45.058 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-06-24 16:19:45.175 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-24 16:19:45.176 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1951 ms
+2022-06-24 16:19:45.412 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-24 16:19:45.802 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-24 16:19:46.516 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-24 16:19:46.632 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-24 16:19:47.135 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-24 16:19:47.152 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-24 16:19:47.193 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-24 16:19:47.402 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-06-24 16:19:47.431 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-06-24 16:19:47.435 [main] INFO  com.luobin.demo.edu.EduApplication - Started EduApplication in 4.805 seconds (JVM running for 5.903)
+2022-06-24 16:19:51.972 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 16:19:51.973 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-24 16:19:51.980 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2022-06-24 16:23:39.843 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2022-06-24 16:23:39.845 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2022-06-24 16:23:39.852 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2022-06-24 16:23:48.126 [main] INFO  com.luobin.demo.edu.EduApplication - Starting EduApplication on LAPTOP-EMPL0VD0 with PID 17316 (C:\Users\YIMENG\Desktop\guli_parent_plus-master\service\service-edu\target\classes started by YIMENG in C:\Users\YIMENG\Desktop\guli_parent_plus-master)
+2022-06-24 16:23:48.130 [main] INFO  com.luobin.demo.edu.EduApplication - The following profiles are active: dev
+2022-06-24 16:23:49.361 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-24 16:23:49.365 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-06-24 16:23:49.409 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2022-06-24 16:23:49.788 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-24 16:23:50.124 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8001 (http)
+2022-06-24 16:23:50.136 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8001"]
+2022-06-24 16:23:50.137 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2022-06-24 16:23:50.137 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2022-06-24 16:23:50.272 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-06-24 16:23:50.272 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2093 ms
+2022-06-24 16:23:50.500 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-06-24 16:23:50.892 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-06-24 16:23:51.795 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-06-24 16:23:51.944 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-24 16:23:52.665 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2022-06-24 16:23:52.688 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-06-24 16:23:52.734 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2022-06-24 16:23:53.038 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8001"]
+2022-06-24 16:23:53.065 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8001 (http) with context path ''
+2022-06-24 16:23:53.070 [main] INFO  com.luobin.demo.edu.EduApplication - Started EduApplication in 5.541 seconds (JVM running for 6.651)
+2022-06-24 16:23:57.358 [http-nio-8001-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-24 16:23:57.358 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-06-24 16:23:57.380 [http-nio-8001-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 21 ms
+2022-06-24 16:24:02.905 [http-nio-8001-exec-7] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - courseId 从前端传递过来是：1616
+2022-06-24 16:24:03.046 [http-nio-8001-exec-7] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - eduChaptersList []
+2022-06-24 16:24:03.051 [http-nio-8001-exec-7] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - eduVideoList[]
+2022-06-24 16:24:16.382 [http-nio-8001-exec-8] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - courseId 从前端传递过来是：15
+2022-06-24 16:24:16.394 [http-nio-8001-exec-8] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - eduChaptersList [EduChapter(id=1616, courseId=15, title=第一章：Java入门, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Wed Oct 09 09:13:19 GMT+08:00 2019), EduChapter(id=32, courseId=15, title=第二章：控制台输入和输出, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=44, courseId=15, title=第三章：控制流, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=48, courseId=15, title=第四章：类的定义, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=63, courseId=15, title=第五章：数组, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=64, courseId=15, title=第六章：继承, sort=61, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Wed Oct 09 08:32:47 GMT+08:00 2019)]
+2022-06-24 16:24:16.397 [http-nio-8001-exec-8] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - eduVideoList[]
+2022-06-24 16:24:16.407 [http-nio-8001-exec-8] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:24:16.408 [http-nio-8001-exec-8] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:24:16.408 [http-nio-8001-exec-8] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:24:16.408 [http-nio-8001-exec-8] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:24:16.408 [http-nio-8001-exec-8] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:24:16.409 [http-nio-8001-exec-8] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:28:13.406 [http-nio-8001-exec-10] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - courseId 从前端传递过来是：1616
+2022-06-24 16:28:13.412 [http-nio-8001-exec-10] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - eduChaptersList []
+2022-06-24 16:28:13.416 [http-nio-8001-exec-10] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - eduVideoList[EduVideo(id=17, courseId=1616, chapterId=1616, title=第一节：Java简介, videoSourceId=196116a6fee742e1ba9f6c18f65bd8c1, videoOriginalName=1, sort=1, playCount=1000, isFree=1, duration=100.0, status=Draft, size=0, version=1, gmtCreate=Tue Jan 01 13:08:57 GMT+08:00 2019, gmtModified=Fri Oct 11 11:26:39 GMT+08:00 2019), EduVideo(id=18, courseId=1616, chapterId=1616, title=第二节：表达式和赋值语句, videoSourceId=2d99b08ca0214909899910c9ba042d47, videoOriginalName=7 - How Do I Find Time for My , sort=2, playCount=999, isFree=1, duration=100.0, status=Draft, size=0, version=1, gmtCreate=Tue Jan 01 13:09:02 GMT+08:00 2019, gmtModified=Fri Mar 08 03:30:27 GMT+08:00 2019)]
+2022-06-24 16:28:29.755 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - courseId 从前端传递过来是：15
+2022-06-24 16:28:29.761 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - eduChaptersList [EduChapter(id=1616, courseId=15, title=第一章：Java入门, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Wed Oct 09 09:13:19 GMT+08:00 2019), EduChapter(id=32, courseId=15, title=第二章：控制台输入和输出, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=44, courseId=15, title=第三章：控制流, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=48, courseId=15, title=第四章：类的定义, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=63, courseId=15, title=第五章：数组, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=64, courseId=15, title=第六章：继承, sort=61, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Wed Oct 09 08:32:47 GMT+08:00 2019)]
+2022-06-24 16:28:29.765 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - eduVideoList[]
+2022-06-24 16:28:29.765 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:28:29.766 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:28:29.766 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:28:29.766 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:28:29.766 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:28:29.766 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:29:55.852 [http-nio-8001-exec-3] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - courseId 从前端传递过来是：15
+2022-06-24 16:29:55.858 [http-nio-8001-exec-3] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - eduChaptersList [EduChapter(id=1616, courseId=15, title=第一章：Java入门, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Wed Oct 09 09:13:19 GMT+08:00 2019), EduChapter(id=32, courseId=15, title=第二章：控制台输入和输出, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=44, courseId=15, title=第三章：控制流, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=48, courseId=15, title=第四章：类的定义, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=63, courseId=15, title=第五章：数组, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=64, courseId=15, title=第六章：继承, sort=61, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Wed Oct 09 08:32:47 GMT+08:00 2019)]
+2022-06-24 16:29:55.862 [http-nio-8001-exec-3] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - eduVideoList[EduVideo(id=17, courseId=15, chapterId=1616, title=第一节：Java简介, videoSourceId=196116a6fee742e1ba9f6c18f65bd8c1, videoOriginalName=1, sort=1, playCount=1000, isFree=1, duration=100.0, status=Draft, size=0, version=1, gmtCreate=Tue Jan 01 13:08:57 GMT+08:00 2019, gmtModified=Fri Oct 11 11:26:39 GMT+08:00 2019), EduVideo(id=18, courseId=15, chapterId=1616, title=第二节：表达式和赋值语句, videoSourceId=2d99b08ca0214909899910c9ba042d47, videoOriginalName=7 - How Do I Find Time for My , sort=2, playCount=999, isFree=1, duration=100.0, status=Draft, size=0, version=1, gmtCreate=Tue Jan 01 13:09:02 GMT+08:00 2019, gmtModified=Fri Mar 08 03:30:27 GMT+08:00 2019), EduVideo(id=19, courseId=15, chapterId=15, title=第三节：String类, videoSourceId=51120d59ddfd424cb5ab08b44fc8b23a, videoOriginalName=eae2b847ef8503b81f5d5593d769dde2.mp4, sort=3, playCount=888, isFree=0, duration=100.0, status=Draft, size=0, version=1, gmtCreate=Tue Jan 01 13:09:05 GMT+08:00 2019, gmtModified=Tue Nov 12 12:50:45 GMT+08:00 2019)]
+2022-06-24 16:29:55.869 [http-nio-8001-exec-3] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[VideoVo(id=17, title=第一节：Java简介), VideoVo(id=18, title=第二节：表达式和赋值语句)]
+2022-06-24 16:29:55.869 [http-nio-8001-exec-3] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:29:55.869 [http-nio-8001-exec-3] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:29:55.870 [http-nio-8001-exec-3] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:29:55.870 [http-nio-8001-exec-3] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:29:55.871 [http-nio-8001-exec-3] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:53:25.461 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - courseId 从前端传递过来是：15
+2022-06-24 16:53:25.467 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - eduChaptersList [EduChapter(id=1616, courseId=15, title=第一章：Java入门, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Wed Oct 09 09:13:19 GMT+08:00 2019), EduChapter(id=32, courseId=15, title=第二章：控制台输入和输出, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=44, courseId=15, title=第三章：控制流, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=48, courseId=15, title=第四章：类的定义, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=63, courseId=15, title=第五章：数组, sort=0, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Tue Jan 01 12:27:40 GMT+08:00 2019), EduChapter(id=64, courseId=15, title=第六章：继承, sort=61, gmtCreate=Tue Jan 01 12:27:40 GMT+08:00 2019, gmtModified=Wed Oct 09 08:32:47 GMT+08:00 2019)]
+2022-06-24 16:53:25.472 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - eduVideoList[EduVideo(id=17, courseId=15, chapterId=1616, title=第一节：Java简介, videoSourceId=196116a6fee742e1ba9f6c18f65bd8c1, videoOriginalName=1, sort=1, playCount=1000, isFree=1, duration=100.0, status=Draft, size=0, version=1, gmtCreate=Tue Jan 01 13:08:57 GMT+08:00 2019, gmtModified=Fri Oct 11 11:26:39 GMT+08:00 2019), EduVideo(id=18, courseId=15, chapterId=1616, title=第二节：表达式和赋值语句, videoSourceId=2d99b08ca0214909899910c9ba042d47, videoOriginalName=7 - How Do I Find Time for My , sort=2, playCount=999, isFree=1, duration=100.0, status=Draft, size=0, version=1, gmtCreate=Tue Jan 01 13:09:02 GMT+08:00 2019, gmtModified=Fri Mar 08 03:30:27 GMT+08:00 2019), EduVideo(id=19, courseId=15, chapterId=1616, title=第三节：String类, videoSourceId=51120d59ddfd424cb5ab08b44fc8b23a, videoOriginalName=eae2b847ef8503b81f5d5593d769dde2.mp4, sort=3, playCount=888, isFree=0, duration=100.0, status=Draft, size=0, version=1, gmtCreate=Tue Jan 01 13:09:05 GMT+08:00 2019, gmtModified=Tue Nov 12 12:50:45 GMT+08:00 2019), EduVideo(id=20, courseId=15, chapterId=1616, title=第四节：程序风格, videoSourceId=2a38988892d84df598752226c50f3fa3, videoOriginalName=00-day10总结.avi, sort=4, playCount=666, isFree=0, duration=100.0, status=Draft, size=0, version=1, gmtCreate=Tue Jan 01 13:09:05 GMT+08:00 2019, gmtModified=Fri Oct 11 09:20:09 GMT+08:00 2019)]
+2022-06-24 16:53:25.472 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[VideoVo(id=17, title=第一节：Java简介), VideoVo(id=18, title=第二节：表达式和赋值语句), VideoVo(id=19, title=第三节：String类), VideoVo(id=20, title=第四节：程序风格)]
+2022-06-24 16:53:25.473 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:53:25.473 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:53:25.473 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:53:25.473 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]
+2022-06-24 16:53:25.473 [http-nio-8001-exec-1] INFO  c.l.demo.edu.service.impl.EduChapterServiceImpl - 章节里面的小节信息是： videoVoList[]

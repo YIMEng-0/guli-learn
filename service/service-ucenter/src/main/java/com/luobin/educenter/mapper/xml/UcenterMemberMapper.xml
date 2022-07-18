@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luobin.educenter.mapper.UcenterMemberMapper">
+
+    <!--查询某一天中的注册人数-->
+    <!--id 就是 UcenterMemberMapper 里面的方法的名字-->
+    <!--resultMap 里面就是通过查询数据库得到的返回数值的类型-->
+    <!--在 where 的后面，传递的是动态的变量，所以需要使用 #{}-->
+    <!--
+        关于下面的参数，只有一个参数的时候，是不需要注意的，但是存在的参数太多的话，
+        需要使用 #{0} #{1}，
+        或者配合 #param("aa") #{aa} 使用
+    -->
+    <select id="countRegisterDay" resultType="java.lang.Integer">
+        SELECT COUNT(*)
+        FROM ucenter_member uc
+        WHERE DATE (uc.gmt_create)=#{day}
+    </select>
+
+</mapper>
