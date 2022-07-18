@@ -65,8 +65,6 @@ public class PermissionController {
         return R.ok().data("children", list);
     }
 
-
-
     @ApiOperation(value = "新增菜单")
     @PostMapping("save")
     public R save(@RequestBody Permission permission) {
@@ -80,6 +78,5 @@ public class PermissionController {
         permissionService.updateById(permission);
         return R.ok();
     }
-
 }
 

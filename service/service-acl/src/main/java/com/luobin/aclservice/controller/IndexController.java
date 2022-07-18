@@ -19,7 +19,7 @@ public class IndexController {
     private IndexService indexService;
 
     /**
-     * 根据token获取用户信息
+     * 根据 token 获取用户信息
      */
     @GetMapping("info")
     public R info(){
